@@ -1,0 +1,26 @@
+[
+  {
+    "id": "toddler-behavior",
+    "title": "Toddler Behavior",
+    "type": "podcast",
+    "dateAdded": "2026-04-09",
+    "ceHours": 0.25,
+    "description": "This episode examines the cultural and philosophical assumptions that shape how early childhood professionals respond to toddler behavior, and explores what developmental science and cross-cultural research suggest about more effective, regulation-focused approaches."
+  },
+  {
+    "id": "early-autism-live-workshop",
+    "title": "Early Autism Live Workshop",
+    "type": "seminar",
+    "dateAdded": "2026-04-09",
+    "ceHours": 2,
+    "description": "A live Q&A exploring early autism — what we know, what we're still learning."
+  },
+  {
+    "id": "picky-eating",
+    "title": "Picky Eating",
+    "type": "podcast",
+    "dateAdded": "2026-02-15",
+    "ceHours": 0.25,
+    "description": "This episode explores picky eating in early childhood — how it differs from feeding disorders, what the research says about its origins, and which strategies are most supported for helping young children expand their diets without creating mealtime conflict."
+  }
+]
