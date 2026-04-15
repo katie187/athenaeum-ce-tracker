@@ -1,5 +1,5 @@
 import { jsPDF } from "jspdf";
-import "jspdf-autotable";
+import { autoTable } from "jspdf-autotable";
 
 export function exportPdf(member, content, completed) {
   const doc = new jsPDF();
@@ -48,7 +48,7 @@ export function exportPdf(member, content, completed) {
     // Table
     const typeLabel = { article: "Article", podcast: "Podcast", seminar: "Seminar" };
 
-    doc.autoTable({
+    autoTable(doc, {
       startY: infoY + 28,
       head: [["Title", "Type", "CE Hours", "Date Completed"]],
       body: completedItems.map((c) => [
